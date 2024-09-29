@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(45deg, pink 25%, white, beige);
+    margin: 0px;
+}
+
+#form-styling {
+    width: 60%;
+    background-color: pink;
+}
+
+#title {
+    top: 0px;
+    font-size: 300%;
+    margin: 0;
+    position: sticky;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: black;
+    background: linear-gradient(45deg, pink 5%, grey 50%, pink);
+}
+
+#description {
+    margin: 15px;
+    font-size: 120%;
+
+}
+
+
+.two {
+    justify-content: center;
+    margin: 5px 15px;
+}
+
+#survey-form {
+    display: felx;
+    margin: 5px;
+    justify-content: center;
+}
+
+#first {
+    justify-content: center;
+    padding: 2% 10%;
+    margin: 5px 0px;
+    font-size: 105%;
+}
+
+#second {
+    justify-content: center;
+    padding: 2% 10%;
+    margin: 5px 0px;
+    font-size: 105%;
+}
+
+#third {
+    font-size: 105%;
+    justify-content: center;
+    padding: 2% 10%;
+    margin: 5px 0px;
+
+}
+
+.one {
+    justify-content: center;
+    margin: 5px 15px;
+    text-align: center;
+    padding: 1.5%;
+}
+
+#submit {
+    padding: 1.5%;
+    text-align: center;
+    font-size: 200%;
+}
+
+#submit :hover {
+    color: pink;
+}
+
+label {
+    margin: .5rem;
+    display: block;
+}

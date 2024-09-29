@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Best Anime Ever</title>
+
+</head>
+
+<body>
+
+    <h1 id="title">Best Anime Ever</h1>
+    <hr>
+
+    <main>
+
+        <p id="description">This form is to collect information on <b>the best anime ever</b>. What is the coolest ?
+            what is
+            the scarest ?</p>
+
+
+        <div class="two">
+            <form id="survey-form">
+
+                <fieldset id="first">
+                    <label id="name-label">Enter Your Full Name: <input id="name" type="text"
+                            placeholder="ENTER YOUR FULL NAME PLEASE" required />
+                    </label>
+                    <label id="email-label">Enter Your E-mail: <input id="email" type="email"
+                            placeholder="ENTER YOU E-MAIL " required />
+                    </label>
+                    <label id="number-label">Enter Your Age: <input id="number" type="number" max="55" min="15"
+                            placeholder="YOUR AGE" required />
+                    </label>
+                </fieldset>
+
+                <fieldset id="second">
+                    <label id="dropdown-label">How did you hear about us ?<select id="dropdown">
+                            <option>select an option</option>
+                            <option>Through an anime blog</option>
+                            <option>By chance</option>
+                        </select>
+                        <label id="personal-account-label">Personal Account <input name="account-type" type="radio"
+                                value="6" class="in-line" />
+                        </label>
+                        <label id="business-account-label">Business Account <input name="account-type" type="radio"
+                                value="5" class="in-line" />
+                        </label>
+                        <label>Airtel Money <input type="radio" name="account-type" value="7" /></label>
+                        <label>MTN Money <input type="radio" name="account-type" value="8" /></label>
+                </fieldset>
+
+                <fieldset id="third">
+                    <label>
+                        What Your Favorite Genre ?
+                    </label>
+                    <label>Action <input type="checkbox" name="genre" value="9" /></label>
+                    <label>Adventure <input type="checkbox" name="genre" value="10" /></label>
+                    <label>Shounen <input type="checkbox" name="genre" value="11"></label>
+                    <label>Shojo <input type="checkbox" name="genre" value="12"></label>
+                    <label>Romance<input type="checkbox" name="genre" value="13"></label>
+                    <label>Comedy<input type="checkbox" name="genre" value="14"></label>
+                    <label>Your Favorite Anime: <textarea placeholder="Write the full name of the anime"></textarea>
+                    </label>
+                </fieldset>
+                <div class="one">
+                    <input id="submit" type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
